@@ -43,9 +43,10 @@
       function displayMovieInfo() {
 
         const movie = $(this).attr("data-name");
-        const queryURL = `https://ezey141fkf.execute-api.us-east-2.amazonaws.com/default/movie_search/?name=${movie}` 
+        const queryURL = "https://hlnwjhg7aa.execute-api.us-east-2.amazonaws.com/default/movie_search/?name="+movie 
         // const queryURL = `https://www.omdbapi.com/?t=${movie}&y=&plot=short&apikey=trilogy`
-
+        // https://ezey141fkf.execute-api.us-east-2.amazonaws.com/default/movie_search
+        // https://ezey141fkf.execute-api.us-east-2.amazonaws.com/default/movie_search
         // Creating an AJAX call for the specific movie button being clicked
         $.ajax({
           url: queryURL,
