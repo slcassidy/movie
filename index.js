@@ -14,9 +14,9 @@ AWS.config.update({
     region: 'us-east-2',
     endpoint: 'http://dynamodb:us-east-2:805129476280:table/tbl_movie',
     accessKeyId: `${key1}`,
-    // accessKeyID: "LTMkN8HRJlKd9sk1PTsghivlY8aVRTudlJxsM7yS",
+
     secretAccessKey: `${key2}`
-    // secretAccessKey: 'AKIAI4ECLURCC5QZBDAA'
+
 });
 
 
